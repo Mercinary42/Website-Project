@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <!-- makes it responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- materialize framework -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <!-- font awesome for more icons such as social media buttons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous" />
+    <!-- google icons for materialize -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link type="text/css" rel="stylesheet" href="css/main.css" />
+    <link type="text/css" rel="stylesheet" href="css/resume.css">
+    <title>MyProject</title>
+</head>
+
+<!--
+    Scrollspy allows for clicking on a link in the nav and sending it down to that section
+  -->
+
+<body class="scrollspy">
+    <!--
+      Sets the navigation bar at top, to stay at the top and gives it a color of teal
+    -->
+    <div class="navbar-fixed">
+        <nav class="teal">
+            <!--
+          Keeps all the information contained within a pre-set box on the page
+        -->
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo hide-on-small-and-down">David Morgan</a>
+                    <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+                        <i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="About.html">About</a></li>
+                        <li><a href="Resume.html">Resume</a></li>
+                        <li><a href="MyWork.html">My Work</a></li>
+                        <li><a href="Statement.html">Statement</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!--
+      Sets up the hamburger menu for the sidenav when website is viewed on a smaller screen
+    -->
+    <ul class="sidenav" id="mobile-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Resume.html">Resume</a></li>
+        <li><a href="MyWork.html">My Work</a></li>
+        <li><a href="Statement.html">Statement</a></li>
+    </ul>
+
+    <!-- Section: Slider -->
+    <section class="slider">
+        <div class="slider">
+            <ul class="slides">
+                <li>
+                    <img src="img/slider1.jpg" />
+                    <!--
+              images come from http://unsplash.com, an opensource free picture sharing site
+            -->
+                    <div class="caption center-align">
+
+                        <h2 class="light grey-text text-lighten-3 hide-on-small-only">
+                            "If you believe it will work out, you'll see opportunities. If you believe it won't, you
+                            will see obstacles." - Wayne Dyer
+                        </h2>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/slider2.jpg" />
+                    <!--
+              images come from http://unsplash.com, an opensource free picture sharing site
+            -->
+                    <div class="caption left-align">
+
+                        <h2 class="light grey-text text-lighten-3 hide-on-small-only">
+                            "I attribute my success to this: I never gave or took any excuse." - Florence Nightingale
+                        </h2>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/slider3.jpg" />
+                    <!--
+              images come from http://unsplash.com, an opensource free picture sharing site
+            -->
+                    <div class="caption right-align">
+
+                        <h2 class="light grey-text text-lighten-3 hide-on-small-only">
+                            "Don't wish it were easier. Wish you were better" - Jim Rohn
+                        </h2>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/slider4.jpg" />
+                    <!--
+              images come from http://unsplash.com, an opensource free picture sharing site
+            -->
+                    <div class="caption center-align">
+
+                        <h2 class="light grey-text text-lighten-3 hide-on-small-only">
+                            "Your true success in life begins only when you make the commitment to become excellent at
+                            what you do." - Brian Tracy
+                        </h2>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!--Resume Area-->
+
+    <!-- Footer -->
+    <footer class="section teal darken-2 white-text center">
+
+        <p class="flow-text">David Morgan &copy; 2018</p>
+    </footer>
+
+    <!-- JavaScript at the end of the body for optimized loading -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+
+</html>

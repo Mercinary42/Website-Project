@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <!-- makes it responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- materialize framework -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <!-- font awesome for more icons such as social media buttons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous" />
+    <!-- google icons for materialize -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link type="text/css" rel="stylesheet" href="css/main.css" />
+    <title>MyProject</title>
+</head>
+
+<!--
+    Scrollspy allows for clicking on a link in the nav and sending it down to that section
+  -->
+
+<body class="scrollspy">
+    <!--
+      Sets the navigation bar at top, to stay at the top and gives it a color of teal
+    -->
+    <div class="navbar-fixed">
+        <nav class="teal">
+            <!--
+          Keeps all the information contained within a pre-set box on the page
+        -->
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo hide-on-small-and-down">David Morgan</a>
+                    <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+                        <i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="About.html">About</a></li>
+                        <li><a href="Resume.html">Resume</a></li>
+                        <li><a href="MyWork.html">My Work</a></li>
+                        <li><a href="Statement.html">Statement</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!--
+      Sets up the hamburger menu for the sidenav when website is viewed on a smaller screen
+    -->
+    <ul class="sidenav" id="mobile-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Resume.html">Resume</a></li>
+        <li><a href="MyWork.html">My Work</a></li>
+        <li><a href="Statement.html">Statement</a></li>
+    </ul>
+
+    <!-- Section: Slider -->
+    <section class="slider">
+        <div class="slider">
+            <ul class="slides">
+                <li>
+                    <img src="img/slider1.jpg" />
+                    <!--
+              images come from http://unsplash.com, an opensource free picture sharing site
+            -->
+                    <div class="caption center-align">
+                        <h2>Adaptable to Change</h2>
+                        <h5 class="light grey-text text-lighten-3 hide-on-small-only">
+                            "It is not the strongest of the species that survives, nor the most intelligent. It is the
+                            one that is most adaptable to change." - Charles Darwin
+                        </h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/slider2.jpg" />
+                    <!--
+              images come from http://unsplash.com, an opensource free picture sharing site
+            -->
+                    <div class="caption left-align">
+                        <h2>Takes the Initiative</h2>
+                        <h5 class="light grey-text text-lighten-3 hide-on-small-only">
+                            "A lot of people never use their initiative because no-one told them to." - Banksy
+                        </h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/slider3.jpg" />
+                    <!--
+              images come from http://unsplash.com, an opensource free picture sharing site
+            -->
+                    <div class="caption right-align">
+                        <h2>Extremely Hardworking</h2>
+                        <h5 class="light grey-text text-lighten-3 hide-on-small-only">
+                            "A dream doesn't become reality through magic; it takes sweat, determination and hard
+                            work." - Colin Powell
+                        </h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/slider4.jpg" />
+                    <!--
+              images come from http://unsplash.com, an opensource free picture sharing site
+            -->
+                    <div class="caption center-align">
+                        <h2>Leadership</h2>
+                        <h5 class="light grey-text text-lighten-3 hide-on-small-only">
+                            "The quality of a leader is reflected in the standards they set for themselves." - Ray Kroc
+                        </h5>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!--Section: About Me-->
+    <section class="section about-me">
+        <div class="container">
+            <div class="row">
+                <h4 class="center"><span class="teal-text">About</span> Me</h4>
+                <div class="container 2">
+                    <p class="flow-text a">David Morgan was born and raised in Los Angeles, California where he
+                        graduated from Granada Hills High School. In 2003, at the age of 17, he enlisted in the United
+                        States Army as an Infantryman. During his time in service, he served four (4) deployements to
+                        Afghanistan and Iraq for a total of fourty-four (44) months.
+                        <br><br>In 2015, David Morgan was medically discharged from the Army and took up residence in
+                        Dallas, Texas. Here, he enrolled in college with a major focusing on Computer Systems and
+                        Inforamtion Technology for Businesses.<br><br>In 2017, he moved to Pennsylvania where he worked
+                        as a Welder's Helper on the Atlantic Sunrise Pipeline.
+                        <br><br>While working in Pennsylvania, David met a beautiful woman by the name of Gretchen, and
+                        they are expecting their first child in April 2019. </p>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card z-depth-5">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator responsive-img" src="img/about1.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator teal-text center-align">Military<i class="material-icons right">more_vert</i></span>
+                            <p><a href="#"></a></p>
+
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title teal-text center-align">Military<a href="#"></a><i class="material-icons right">close</i></span>
+                            <p>I served 12yrs in the United States Army, four of those years spent
+                                leading troops overseas. I have completed Ranger School, Airborne School, Emergency
+                                Medical Technician School, and trained in Advanced Situational Awareness. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="card z-depth-5">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator responsive-img" src="img/about2.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator teal-text center-align">School<i class="material-icons right">more_vert</i></span>
+                            <p><a href="#"></a></p>
+
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title teal-text center-align">School<a href="#"></a><i class="material-icons right">close</i></span>
+                            <p>I started classes in Texas at Tarrant County Community College. I am
+                                now attending Harrisburg Area Community College, with a hopeful trasnfer to Penn. State
+                                next fall.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="card z-depth-5">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator responsive-img" src="img/about3.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator teal-text center-align">Personal<i class="material-icons right">more_vert</i></span>
+                            <p><a href="#"></a></p>
+
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title teal-text center-align">Personal<a href="#"></a><i class="material-icons right">close</i></span>
+                            <p>I have a strong interest in Computers and Programming. I am a student,
+                                inside and out of class. I am interested in becoming a Full-Stack Developer for the
+                                moment, however, I feel that the more I learn, the more I want to venture out and take
+                                my programming knowledge elsewhere.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Footer -->
+    <footer class="section teal darken-2 white-text center">
+        <p class="flow-text">David Morgan &copy; 2018</p>
+    </footer>
+
+    <!-- JavaScript at the end of the body for optimized loading -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+
+</html>
