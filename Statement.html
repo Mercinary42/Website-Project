@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <!-- makes it responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- materialize framework -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <!-- font awesome for more icons such as social media buttons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous" />
+    <!-- google icons for materialize -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link type="text/css" rel="stylesheet" href="css/main.css" />
+    <title>MyProject</title>
+</head>
+
+<!--
+    Scrollspy allows for clicking on a link in the nav and sending it down to that section
+  -->
+
+<body class="scrollspy">
+    <!--
+      Sets the navigation bar at top, to stay at the top and gives it a color of teal
+    -->
+    <div class="navbar-fixed">
+        <nav class="teal">
+            <!--
+          Keeps all the information contained within a pre-set box on the page
+        -->
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo hide-on-small-and-down">David Morgan</a>
+                    <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+                        <i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="About.html">About</a></li>
+                        <li><a href="Resume.html">Resume</a></li>
+                        <li><a href="MyWork.html">My Work</a></li>
+                        <li><a href="Statement.html">Statement</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!--
+      Sets up the hamburger menu for the sidenav when website is viewed on a smaller screen
+    -->
+    <ul class="sidenav" id="mobile-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Resume.html">Resume</a></li>
+        <li><a href="MyWork.html">My Work</a></li>
+        <li><a href="Statement.html">Statement</a></li>
+    </ul>
+
+    <!-- Section: Slider -->
+    <section class="slider">
+        <div class="slider">
+            <ul class="slides">
+                <li>
+                    <img src="img/slider1.jpg" />
+                    <!--
+              images come from http://unsplash.com, an opensource free picture sharing site
+            -->
+                    <div class="caption center-align">
+
+                        <h2 class="light grey-text text-lighten-3 hide-on-small-only">
+                            "Hardships often prepare ordinary people for an extraordinary destiny." - C.S. Lewis
+                        </h2>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/slider2.jpg" />
+                    <!--
+              images come from http://unsplash.com, an opensource free picture sharing site
+            -->
+                    <div class="caption left-align">
+
+                        <h2 class="light grey-text text-lighten-3 hide-on-small-only">"Believe in yourself. You are
+                            braver than you think, more talented than you know, and capable of more than you imagine" -
+                            Roy T. Bennett
+                        </h2>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/slider3.jpg" />
+                    <!--
+              images come from http://unsplash.com, an opensource free picture sharing site
+            -->
+                    <div class="caption right-align">
+
+                        <h2 class="light grey-text text-lighten-3 hide-on-small-only">
+                            "I learned that courage was not the absence of fear, but the triumph over it. The brave man
+                            is not he who does not feel afraid, but he who conquers that fear." - Nelson Mandela
+                        </h2>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/slider4.jpg" />
+                    <!--
+              images come from http://unsplash.com, an opensource free picture sharing site
+            -->
+                    <div class="caption center-align">
+
+                        <h2 class="light grey-text text-lighten-3 hide-on-small-only">
+                            "There is only one thing that makes a dream impossible to achieve: The fear of failure." -
+                            Paulo Coelho
+                        </h2>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!--Statement section-->
+    <div class="container">
+
+
+        <div class="row">
+            <div class="col s6 offset-s3 valign">
+                <div class="card z-depth-5">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator responsive-img" src="img/statement1.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator teal-text center-align">Work Ethic<i class="material-icons right">more_vert</i></span>
+                        <blockquote><a href="#"></a>The principle that hard work is intrinsically virtuous
+                            or worthy of
+                            reward</blockquote>
+
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title teal-text center-align">Work Ethic<a href="#"></a><i class="material-icons right">close</i></span>
+                        <p class="flow-text">Working hard has been a mantra in my life for some time now. I believe
+                            that if you start a
+                            job, you must finish that job. Not just finishing the job, however, making sure that job
+                            isn't completed half-ass'd. You should be passionate about what you do, and give a 100% no
+                            matter what.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s6 offset-s3 valign">
+                <div class="card z-depth-5">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator responsive-img" src="img/statement2.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator teal-text center-align">Philosophy<i class="material-icons right">more_vert</i></span>
+                        <blockquote><a href="#"></a>A theory or attitude held by a person or organization
+                            that acts
+                            as a guiding
+                            principle for behavior</blockquote>
+
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title teal-text center-align">Philosophy<a href="#"></a><i class="material-icons right">close</i></span>
+                        <p class="flow-text">You lead by doing. You set the example for others to follow.
+                            There's a creed that we follow once we complete Ranger School, and one of the stanzas that
+                            sticks with me goes as follows: <br><br>
+                            <blockquote>Gallanty will I show the world that I am a specially selected and well-trained
+                                Solier. My courtesy to superior officers, neatness of dress and care of equipment shall
+                                set the example for others to follow.</blockquote><br><br>
+                            <p class="flow-text">My philosophy is to always
+                                be first, always doing your best, and leading from the front.
+                            </p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="section teal darken-2 white-text center">
+        <p class="flow-text">David Morgan &copy; 2018</p>
+    </footer>
+
+    <!-- JavaScript at the end of the body for optimized loading -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+
+</html>

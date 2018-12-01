@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <!-- makes it responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- materialize framework -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+  <!-- font awesome for more icons such as social media buttons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+    crossorigin="anonymous" />
+  <!-- google icons for materialize -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link type="text/css" rel="stylesheet" href="css/main.css" />
+  <title>MyProject</title>
+</head>
+
+<!--
+    Scrollspy allows for clicking on a link in the nav and sending it down to that section
+  -->
+
+<body class="scrollspy">
+  <!--
+      Sets the navigation bar at top, to stay at the top and gives it a color of teal
+    -->
+  <div class="navbar-fixed">
+    <nav class="teal">
+      <!--
+          Keeps all the information contained within a pre-set box on the page
+        -->
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo hide-on-small-and-down">David Morgan</a>
+          <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+            <i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Resume.html">Resume</a></li>
+            <li><a href="MyWork.html">My Work</a></li>
+            <li><a href="Statement.html">Statement</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!--
+      Sets up the hamburger menu for the sidenav when website is viewed on a smaller screen
+    -->
+  <ul class="sidenav" id="mobile-nav">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="About.html">About</a></li>
+    <li><a href="Resume.html">Resume</a></li>
+    <li><a href="MyWork.html">My Work</a></li>
+    <li><a href="Statement.html">Statement</a></li>
+  </ul>
+
+  <!-- Section: Slider -->
+  <section class="slider">
+    <div class="slider">
+      <ul class="slides">
+        <li>
+          <img src="img/slider1.jpg" />
+          <!--
+              images come from http://unsplash.com, an opensource free picture sharing site
+            -->
+          <div class="caption center-align">
+
+            <h2 class="light grey-text text-lighten-3 hide-on-small-only">
+              "Fortune always favors the brave, and never helps a man who does not help himself." - P.T. Barnum
+            </h2>
+          </div>
+        </li>
+        <li>
+          <img src="img/slider2.jpg" />
+          <!--
+              images come from http://unsplash.com, an opensource free picture sharing site
+            -->
+          <div class="caption left-align">
+
+            <h2 class="light grey-text text-lighten-3 hide-on-small-only">
+              "Only those who dare to fail greatly can ever achieve greatly." - Robert F. Kennedy
+            </h2>
+          </div>
+        </li>
+        <li>
+          <img src="img/slider3.jpg" />
+          <!--
+              images come from http://unsplash.com, an opensource free picture sharing site
+            -->
+          <div class="caption right-align">
+
+            <h2 class="light grey-text text-lighten-3 hide-on-small-only">
+              "In the end... We only regret the chances we didn't take, the relationships we were afraid to have, and
+              the decisions we waited too long to make." - Lewis Carroll
+            </h2>
+          </div>
+        </li>
+        <li>
+          <img src="img/slider4.jpg" />
+          <!--
+              images come from http://unsplash.com, an opensource free picture sharing site
+            -->
+          <div class="caption center-align">
+
+            <h2 class="light grey-text text-lighten-3 hide-on-small-only">
+              "Rock bottom became the solid foundation on which I built my life" - Unk
+            </h2>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!--My Work Section-->
+  <section class="section about-me">
+    <div class="container">
+      <div class="row">
+
+        <div class="col s12 m4">
+          <div class="card z-depth-5">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator responsive-img" src="img/mywork1.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator teal-text center-align">What is Beauty<i class="material-icons right">more_vert</i></span>
+              <p><a href="https://drive.google.com/open?id=0B9rJ1IXptWMdWjl3cFRpRndpNVk" target="_blank">Click Me</a></p>
+
+
+            </div>
+            <div class="card-reveal">
+              <span class="card-title teal-text center-align">What is Beauty<a href="#"></a><i class="material-icons right">close</i></span>
+              <p class="flow-text">A report written in a Psychology class about what I believed beauty was</p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="card z-depth-5">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator responsive-img" src="img/mywork2.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator teal-text center-align">The Solar System<i class="material-icons right">more_vert</i></span>
+              <p><a href="https://drive.google.com/open?id=1ILqfvJo9v0IZlk3iItusCr1_DwWwiCjaRy6q0VF87D4" target="_blank">Click
+                  Me</a></p>
+
+
+            </div>
+            <div class="card-reveal">
+              <span class="card-title teal-text center-align">The Solar System<a href="#"></a><i class="material-icons right">close</i></span>
+              <p class="flow-text">A report written in a Technical Business Writing class, and I chose to write about
+                something I was passionate about as a kid, and still to this day</p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="card z-depth-5">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator responsive-img" src="img/mywork3.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator teal-text center-align">The Great Raid<i class="material-icons right">more_vert</i></span>
+              <p class="center-align"><a href="https://drive.google.com/open?id=1gK8syTsfGW0UxNedfGUniWmt5IgPiOcejleP3C5ymw8"
+                  target="_blank">Click
+                  Me</a></p>
+
+
+            </div>
+            <div class="card-reveal">
+              <span class="card-title teal-text center-align">The Great Raid<a href="#"></a><i class="material-icons right">close</i></span>
+              <p class="flow-text">Being a veteran, I have a fascination with military history. For this project, I
+                wrote about what made me want to become an Army Ranger.</p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="card z-depth-5">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator responsive-img" src="img/mywork4.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator teal-text center-align">STEM Proposal<i class="material-icons right">more_vert</i></span>
+              <p><a href="https://drive.google.com/open?id=1EWvQNjMb-lHQF_dxCwpiClDwIpNjFAXdvZuJnsJwHgo" target="_blank">Click
+                  Me</a></p>
+
+
+            </div>
+            <div class="card-reveal">
+              <span class="card-title teal-text center-align">STEM Proposal<a href="#"></a><i class="material-icons right">close</i></span>
+              <p class="flow-text">A proposal for teaching STEM in the school system and our point of view on how it
+                should be changed</p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="card z-depth-5">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator responsive-img" src="img/mywork5.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator teal-text center-align">Final Proposal<i class="material-icons right">more_vert</i></span>
+              <p><a href="https://drive.google.com/open?id=0B9rJ1IXptWMdcXlXRERiTGJyczQ" target="_blank">Click Me</a></p>
+
+
+            </div>
+            <div class="card-reveal">
+              <span class="card-title teal-text center-align">Final Proposal<a href="#"></a><i class="material-icons right">close</i></span>
+              <p class="flow-text">The text version of our proposal </p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="card z-depth-5">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator responsive-img" src="img/mywork6.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator teal-text center-align">Art Appreciation<i class="material-icons right">more_vert</i></span>
+              <p><a href="https://drive.google.com/open?id=0B9rJ1IXptWMdQnoxVUZmOXJ5YU0" target="_blank">Click Me</a></p>
+
+
+            </div>
+            <div class="card-reveal">
+              <span class="card-title teal-text center-align">Art Appreciation<a href="#"></a><i class="material-icons right">close</i></span>
+              <p class="flow-text">Wrote a piece on an art exhibit I saw at a museum in Fort-Worth, Texas</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer class="section teal darken-2 white-text center">
+      <p class="flow-text">David Morgan &copy; 2018</p>
+    </footer>
+
+    <!-- JavaScript at the end of the body for optimized loading -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+
+</html>
